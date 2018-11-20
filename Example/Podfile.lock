@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RGAudioPlayer (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - RGAudioPlayer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  RGAudioPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RGAudioPlayer: ff143077df1605b014700a46b992795ff855dd54
+
+PODFILE CHECKSUM: 6b0656e903d1c7294d0720270446c0dcac93c03d
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module RGAudioPlayer {
+  umbrella header "RGAudioPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_RGAudioPlayer_Example {
+  umbrella header "Pods-RGAudioPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RGAudioPlayer_Example' do
+  pod 'RGAudioPlayer', :path => '../'
+
+  target 'RGAudioPlayer_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
